@@ -3,7 +3,7 @@ from rest_framework import viewsets, mixins, filters
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 
-from .models import Post, Group, Comment, Follow
+from posts.models import Post, Group, Comment, Follow
 from .permissions import IsAuthorOrReadOnly
 from .serializers import (
     PostSerializer,
