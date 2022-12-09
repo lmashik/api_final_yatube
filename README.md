@@ -87,7 +87,7 @@ curl -X POST http://127.0.0.1:8000/api/v1/jwt/refresh/\
   -d "refresh:<refresh_token>"\
 ```
 
-Запрос должен содержать параметр **refresh**, полученного при создании 
+Запрос должен содержать параметр **refresh**, полученный при создании 
 токена.
 
 
@@ -97,7 +97,7 @@ curl -X POST http://127.0.0.1:8000/api/v1/jwt/refresh/\
 
 Запрос осуществляется посредством протокола HTTP на адрес, соответствующий 
 ресурсу. HTTP-запросы должны содержать заголовок:
-Authorization: Bearer <access_token>
+_Authorization: Bearer <access_token>_
 
 ### Формат ответа
 
@@ -106,7 +106,7 @@ Authorization: Bearer <access_token>
 
 Пример ответа в случае успешного выполнения:
 
-HTTP 200 OK
+_HTTP 200 OK_
 ```json
 [
     {
