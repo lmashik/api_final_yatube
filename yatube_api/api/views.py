@@ -2,7 +2,6 @@ from django.shortcuts import get_object_or_404
 from posts.models import Post, Group, Comment, Follow
 from rest_framework import viewsets, mixins, filters
 from rest_framework.permissions import IsAuthenticated
-from rest_framework.response import Response
 
 from .permissions import IsAuthorOrReadOnly
 from .serializers import (
