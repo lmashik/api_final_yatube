@@ -17,11 +17,10 @@ router_v1.register(
     CommentViewSet,
     basename='comments'
 )
-router_v1.register('groups', FollowViewSet, basename='followings')
+router_v1.register('follow', FollowViewSet, basename='followings')
 
 
 urlpatterns = [
     path('v1/', include(router_v1.urls)),
-    path('auth/', include('djoser.urls')),
     path('auth/', include('djoser.urls.jwt'))
 ]
