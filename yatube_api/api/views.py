@@ -1,5 +1,5 @@
 from django.shortcuts import get_object_or_404
-from posts.models import Post, Group, Comment, Follow
+
 from rest_framework import viewsets, mixins, filters
 from rest_framework.permissions import IsAuthenticated
 
@@ -10,6 +10,8 @@ from .serializers import (
     CommentSerializer,
     FollowSerializer
 )
+
+from posts.models import Post, Group, Comment, Follow
 
 
 class PostViewSet(viewsets.ModelViewSet):
