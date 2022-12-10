@@ -154,7 +154,7 @@ curl -X GET https://api.shl.tools/api/v1/\
 http://127.0.0.1:8000/api/v1/posts/<post_id>/comments/.
 -------------------------------
 
-## Авторы
+## Автор
 
 Мария Лапикова  
 mashik.mikhaylova@yandex.ru
