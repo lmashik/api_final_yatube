@@ -157,6 +157,5 @@ http://127.0.0.1:8000/api/v1/posts/<post_id>/comments/.
 ## Автор
 
 Мария Лапикова  
-mashik.mikhaylova@yandex.ru
-
+mashik_p@mail.ru
 
